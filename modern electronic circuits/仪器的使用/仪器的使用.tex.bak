@@ -1,0 +1,20 @@
+\documentclass[a4paper,10pt,twocolumn]{article}
+\usepackage{CJK}
+\author{K. Sheng}
+\title{Title}
+\begin{document}
+\begin{CJK*}{GBK}{Song}
+\maketitle
+%\tableofcontents
+\section{实验名称}
+仪器的使用.
+\section{实验目的}
+任意波形发生器、数字存储示波器的基本操作、使用方法；单次信号的观测
+\section{实验仪器}
+$Tektronix AFG3051C$，$Tektronix TDS 1012C-EDU$
+\section{实验内容与数据记录}
+
+\section{思考题}
+
+\end{CJK*}
+\end{document}
