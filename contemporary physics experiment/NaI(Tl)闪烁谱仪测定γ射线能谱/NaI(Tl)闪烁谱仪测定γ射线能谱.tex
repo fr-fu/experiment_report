@@ -1,0 +1,200 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage{geometry}
+\geometry{top=2.5cm}
+\usepackage{ctex}
+\usepackage{epstopdf}
+\usepackage{amsmath,graphics,graphicx}
+\usepackage{threeparttable}
+\renewcommand\tablename{表}
+\renewcommand\figurename{图}
+\usepackage[colorlinks,linkcolor=red]{hyperref}
+
+\title{NaI(Tl)闪烁谱仪测定γ射线能谱}
+\author{盛凯枫\footnote{email:1500011404@pku.edu.cn, phone:15701571375}}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+在本实验中，我们用NaI(Ti)闪烁谱仪测定了放射源$^{137}$Cs的$\gamma$射线能谱图，并利用$^{137}$Cs和$^{60}$Co的全能峰与反射峰位置，对闪烁谱仪的粒子能量与脉冲幅度间的关系做了线性拟合。此外，通过连接多通道脉冲分析器，我们测量了$^{137}$Cs与$^{60}$Co各自以及混合后的$\gamma$ 射线能谱，以及改变放射源在闪烁谱仪中位置后的$\gamma$ 射线能谱，并检验了闪烁谱仪工作的稳定性、能量分辨率和线性程度。
+\end{abstract}
+
+\section*{Introduction}
+我们已经知道闪烁谱仪可以将入射的$\gamma$射线转化为可被检测的电信号，且信号强度与入射射线能量成正比，但对转化过程中发生的具体过程和各种实验条件对信号强度的影响还不是很清楚。本实验通过测量$^{137}$Cs和$^{60}$Co放射的$\gamma$射线经NaI(Tl)闪烁谱仪产生的能谱，检验了全能峰、反散射峰、康普顿平台等能谱特征，并探究了其与放射源种类、放射源位置等的关系，探究了放射源的可叠加性，还对NaI(Tl) 闪烁谱仪的工作稳定性、线性程度与能量分辨率进行了分析。对NaI(Ti)闪烁谱仪工作特性的认识在本实验中得到了加深。
+
+\section*{Results}
+ \subsection*{示波器观测脉冲波形}
+ 用示波器观察$^{137}$Cs的0.662MeV单能$\gamma$射线在线性放大器输出端所形成的脉冲波形，为使得示波器上的波形处于适当范围内，对电源和线性放大器进行如下调节：
+
+ \begin{itemize}
+ \item 调节高压电源电压\footnote{型号：FH1016A}调节的电位器示数为5.5，即输出电压为458V。\footnote{高压电源输出范围为0-1KV，电压调节电位器最大值为12，输出电压为$U_s=1\times\frac{5.5}{12}\textrm{KV}=458\textrm{V}$}
+ \item 调节线性放大器状态为：负电压输入，微分max，积分0，增益粗调旋钮指向20倍，细调电位器示数为2.20，实际总放大倍数为14.4。\footnote{细调电位器最大值为10，细调调节范围为0.5-1.5倍，放大倍数为$0.5+(1.5-0.5)\times\frac{2.20}{10}=0.72$，总放大倍数为粗调与细调放大倍数的乘积，即$0.72\times20=14.4$}
+ \end{itemize}
+
+ 将线性放大器输出信号连接到示波器Ch1通道，设置触发方式为单次触发，调节触发电平为0.2V，电压显示1V/格，适当调节时间显示尺度，即可在示波器上观察到清晰的脉冲波形，且在波形外围包络内部有大量幅值较小的波形，在最高峰值附近波形较为密集，最高峰值为7V 左右。\\\emph{此处可插入拍摄的示波器图像}
+
+ \subsection*{寻找$^{137}$Cs$\gamma$射线的全能峰}
+ 将线性放大器的输出信号经过单道脉冲幅度分析器后输入自动定标器，单道脉冲幅度分析器状态设置为：微分，非对称，道宽0.10V；自动定标器状态设置为：半自动工作状态，K=3，N=1，计时30s，输入极性为正，阈值电位器示数为0，阈值0.2V\footnote{调节范围为0.2-5V}。\par
+ 由示波器波形可知全能峰位置在7V左右，故在6.6-7.3V之间调节单道阈值$U_{th}$，每次改变0.1V，记录计数器计数结果如表\ref{tab1}所示。对测得数据进行三次样条插值，得到插值函数如图\ref{fig1}所示，寻找到最大值点对应的阈值电压$U_{th}=7.07$V。
+
+ \begin{table}[]
+  \caption{寻找$^{137}$Cs全能峰测量数据表}\centering\label{tab1}
+  \begin{threeparttable}
+   \(\begin{array}{|c|c|c|c|c|c|c|c|c|}\hline\hline
+   \textrm{$U_{th}$/V} & 6.6 & 6.7 & 6.8 & 6.9 & 7.0 & 7.1 & 7.2 & 7.3 \\\hline
+   \textrm{count} & 2299 & 3920 & 5850 & 8275 & 10602 & 10982 & 10146 & 7958 \\\hline\hline
+   \end{array}\)
+   \begin{tablenotes}
+    \footnotesize
+    \item[1] 从表中数据可以看出峰值$U_{th}$在7.1V附近。
+   \end{tablenotes}
+  \end{threeparttable}
+ \end{table}
+
+ \begin{figure}[]
+ \includegraphics[width=1.0\textwidth]{data_gr1.eps}
+ \caption{寻找$^{137}$Cs全能峰测量数据三次样条插值函数图}\label{fig1}
+ \end{figure}
+
+ \subsection*{测量$^{137}$Cs$\gamma$射线的全能谱}
+ 为测量全能谱，8.0-0.8V之间调节单道阈值$U_{th}$，每次改变0.1V，记录计数器计数结果如表\ref{tab2}所示。对测得数据进行三次样条插值，得到插值函数如图\ref{fig2}所示。在全能峰附近，能谱可以近似看作高斯分布，找到对应于最高计数一半的计数值的两个$U_{th}$分别为$U_{th1}=6.82$V 和$U_{th2}=7.39$V，半高宽$\Delta U_{th1/2}=0.57$V,峰值对应的$U_{th0}=7.11$V，$\gamma$谱仪能量分辨率$\epsilon=\frac{\Delta E}{E}=\frac{\Delta U_{th1/2}}{U_{th0}}\simeq8\times10^{-2}$。
+
+ \begin{table}[]
+  \caption{测量$^{137}$Cs全能谱数据表}\centering\label{tab2}
+  \begin{threeparttable}
+   \(\begin{array}{|c|c|c|c|c|c|c|c|c|c|c|}\hline\hline
+   U_{\text{th}}\text{/V} & 8.0 & 7.9 & 7.8 & 7.7 & 7.6 & 7.5 & 7.4 & 7.3 & 7.2 & 7.1 \\\hline
+   \text{count} & 93 & 124 & 341 & 356 & 1548 & 3438 & 5261 & 7764 & 10125 & 11072 \\\hline
+   U_{\text{th}}\text{/V} & 7.0 & 6.9 & 6.8 & 6.7 & 6.6 & 6.5 & 6.4 & 6.3 & 6.2 & 6.1 \\\hline
+   \text{count} & 9539 & 7221 & 5150 & 3370 & 1964 & 1034 & 464 & 311 & 272 & 319 \\\hline
+   U_{\text{th}}\text{/V} & 6.0 & 5.9 & 5.8 & 5.7 & 5.6 & 5.5 & 5.4 & 5.3 & 5.2 & 5.1 \\\hline
+   \text{count} & 313 & 304 & 390 & 435 & 524 & 570 & 793 & 1019 & 1347 & 1570 \\\hline
+   U_{\text{th}}\text{/V} & 5.0 & 4.9 & 4.8 & 4.7 & 4.6 & 4.5 & 4.4 & 4.3 & 4.2 & 4.1 \\\hline
+   \text{count} & 1831 & 2129 & 2299 & 2411 & 2361 & 2318 & 2321 & 2400 & 2245 & 2235 \\\hline
+   U_{\text{th}}\text{/V} & 4.0 & 3.9 & 3.8 & 3.7 & 3.6 & 3.5 & 3.4 & 3.3 & 3.2 & 3.1 \\\hline
+   \text{count} & 2201 & 2300 & 2182 & 2211 & 2291 & 2315 & 2310 & 2346 & 2438 & 2405 \\\hline
+   U_{\text{th}}\text{/V} & 3.0 & 2.9 & 2.8 & 2.7 & 2.6 & 2.5 & 2.4 & 2.3 & 2.2 & 2.1 \\\hline
+   \text{count} & 2477 & 2548 & 2705 & 2889 & 2909 & 3119 & 3301 & 3517 & 3541 & 3267 \\\hline
+   U_{\text{th}}\text{/V} & 2.0 & 1.9 & 1.8 & 1.7 & 1.6 & 1.5 & 1.4 & 1.3 & 1.2 & 1.1 \\\hline
+   \text{count} & 2790 & 2547 & 2422 & 2356 & 2412 & 2413 & 2317 & 2351 & 2323 & 2369 \\\hline
+   U_{\text{th}}\text{/V} & 1. & 0.9 & 0.8 & 0.7 & 0.6 & \text{} & \text{} & \text{} & \text{} & \text{} \\\hline
+   \text{count} & 2447 & 2601 & 2453 & 2430 & 2438 & \text{} & \text{} & \text{} & \text{} & \text{} \\\hline\hline
+   \end{array}\)
+  \end{threeparttable}
+ \end{table}
+
+ \begin{figure}[]
+ \includegraphics[width=1.0\textwidth]{data_gr2.eps}
+ \caption{测量$^{137}$Cs全能谱数据三次样条插值函数图}\label{fig2}
+ \end{figure}
+
+ \subsection*{对NaI(Ti)闪烁谱仪进行能量刻度}
+ 把线性放大器增益粗调旋钮调节为10，即将放大倍数减小至原来的一半，此时$^{137}$Cs和$^{60}$Co的全能谱分布在合适的范围内。此时$^{137}$Cs 源光电峰在3.55V附近，对应能量$E_2=0.662$MeV，反散射峰在1.1V附近，对应能量$E_1=0.184$MeV；由已知的$^{137}$Cs和$^{60}$Co 放射的$\gamma$ 射线能量，可以线性估计出$^{60}$Co源的两光电峰大约分别在6.97V 和6.15V 附近，对应能量分别为$E_3=1.17$MeV和$E_4=1.33$MeV。故测量过程中，使用$^{137}$Cs 源在0.8-1.3V、3.3-3.8V范围内，更换$^{60}$Co 源后在5.8-7.4V 范围内，每隔0.1V测量一次计数器计数值，计数结果如表\ref{tab3} 所示。对这四个数据点进行线性拟合，所得结果如图\ref{fig3}所示，截距$E_0=-0.023$V，增益$G$=0.189MeV/V。
+
+ \begin{table}[]
+  \caption{测量$^{137}$Cs与$^{60}$Co的光电峰与反散射峰数据表}\centering\label{tab3}
+  \begin{threeparttable}
+   \(\begin{array}{|c|c|c|c|c|c|c|c|c|c|c|}\hline\hline
+   U_{\text{th}}\text{/V} & 0.8 & 0.9 & 1.0 & 1.1 & 1.2 & 1.3 & 3.3 & 3.4 & 3.5 & 3.6 \\\hline
+   \text{count} & 4658 & 4994 & 5419 & 6629 & 6253 & 5665 & 2556 & 6280 & 15113 & 19979 \\\hline
+   U_{\text{th}}\text{/V} & 3.7 & 3.8 & 5.8 & 5.9 & 6.0 & 6.1 & 6.2 & 6.3 & 6.4 & 6.5 \\\hline
+   \text{count} & 18304 & 9731 & 8588 & 8488 & 8904 & 11730 & 15044 & 20474 & 22012 & 18971 \\\hline
+   U_{\text{th}}\text{/V} & 6.6 & 6.7 & 6.8 & 6.9 & 7.0 & 7.1 & 7.2 & 7.3 & 7.4 & \text{} \\\hline
+   \text{count} & 11618 & 6221 & 6212 & 9261 & 12932 & 16575 & 16434 & 11946 & 6605 & \text{} \\\hline\hline
+   \end{array}\)
+   \begin{tablenotes}
+    \footnotesize
+    \item[1] 从表中可以看出$^{137}$Cs反散射峰在$U_{th1}$=1.1V，光电峰在$U_{th2}$=3.6V，$^{60}$Co两光电峰分别在$U_{th3}$=6.4V 和$U_{th4}$=7.1V。
+   \end{tablenotes}
+  \end{threeparttable}
+ \end{table}
+
+ \begin{figure}[]
+ \includegraphics[width=1.0\textwidth]{data_gr3.eps}
+ \caption{对NaI(Ti)闪烁谱仪进行线性能量刻度，拟合结果为$E=-0.023\textrm{MeV}+0.189U_{th}$，相关系数$R=0.9996$。}\label{fig3}
+ \end{figure}
+
+ \subsection*{多道脉冲分析器}
+ 将线性放大器的输出信号接入微机多道脉冲分析器，调节线性放大器的放大倍数使得$^{60}$Co的能谱完全分布在多道接受的信号范围内。将放射源$^{137}$Cs 放置在NaI(Ti) 闪烁谱仪塑料托盘上方，以及将放射源$^{137}$Cs 和$^{60}$Co 分别或一同放置在NaI(Ti) 闪烁谱仪塑料托盘下方，用多道脉冲分析器分别测出这四种情况下的能谱，能谱散点图如图\ref{fig4}、\ref{fig5}、\ref{fig6}、\ref{fig7}所示。
+
+ \begin{figure}[]
+ \includegraphics[width=1.0\textwidth]{data_gr4.eps}
+ \caption{$^{137}$Cs放射源置于NaI(Ti)闪烁谱仪塑料托盘上时的能谱}\label{fig4}
+ \end{figure}
+ \begin{figure}[]
+ \includegraphics[width=1.0\textwidth]{data_gr5.eps}
+ \caption{$^{137}$Cs放射源置于NaI(Ti)闪烁谱仪塑料托盘下时的能谱}\label{fig5}
+ \end{figure}
+ \begin{figure}[]
+ \includegraphics[width=1.0\textwidth]{data_gr6.eps}
+ \caption{$^{60}$Co放射源置于NaI(Ti)闪烁谱仪塑料托盘下时的能谱}\label{fig6}
+ \end{figure}
+ \begin{figure}[]
+ \includegraphics[width=1.0\textwidth]{data_gr7.eps}
+ \caption{$^{137}$Cs与$^{60}$Co放射源一同置于NaI(Ti)闪烁谱仪塑料托盘下时的能谱}\label{fig7}
+ \end{figure}
+
+\section*{Discussion}
+ \subsection*{验证放射源的叠加性}
+ 将放射源$^{137}$Cs与$^{60}$Co一同放置在NaI(Ti)闪烁谱仪塑料托盘下的情况与分别放置时得到的计数结果相减，可以验证放射源是否具有叠加性，相减结果如图\ref{fig8}所示，可以发现在200--600道之间的计数结果差值基本在50以内，可以认为在单次测量误差范围内，但在0--200道和600--800道之间差值较大。引起结果差异的可能原因有：上方放射源放置在下方放射源之上后，上方放射源与闪烁体距离减小，$\gamma$射线进入闪烁体数量增加；下方放射源放出的$\gamma$射线在上方放射源的塑料容器内部发生散射，使得到达闪烁体时的$\gamma$射线能量分布发生变化；放大器的放大倍数发生微小波动，使得能谱发生整体水平方向的缩放。
+
+  \begin{figure}[]
+  \includegraphics[width=1.0\textwidth]{data_gr8.eps}
+  \caption{图\ref{fig7}结果减去图\ref{fig5}和图\ref{fig6}结果后所得能谱差值散点图}\label{fig8}
+  \end{figure}
+
+ \subsection*{放射源$^{137}$Cs放置位置对能谱分布的影响}
+ 对比图\ref{fig4}与图\ref{fig5}可以发现，当放射源$^{137}$Cs从塑料托盘上方移动至下方后，首先能谱的计数整体大幅下降，这可以很容易地解释为放射源与闪烁体距离增加后，进入闪烁体的光子数量减少；而此外还可以观察到，反散射峰与全能峰之间的比值有显著增大，对此的解释是：当放射源$^{137}$Cs与闪烁体距离较远时，闪烁谱仪本身就对光子方向有了一个选择性，即沿着闪烁谱仪套筒轴线方向的光子才能被接受，而这些方向的光子正是会发生反散射并被闪烁体接受到的光子，故反散射光子数相对于进入闪烁体的光子数的比例就有了显著增大。
+
+ \subsection*{检验闪烁谱仪的稳定性与线性程度}
+ 从多道脉冲分析器读取的数据中可以读出另一组峰值数据，再次进行线性拟合，拟合结果如图\ref{fig9}所示，线性相关系数仍高达0.9998，与之前的0.9996相当，说明闪烁谱仪产生的脉冲信号与入射$\gamma$射线能量之间很好地符合线性关系。另外，当放射源从塑料托盘上移动到下方时，虽然峰值强度发生变化，但峰值位置不变，说明闪烁谱仪具有对放射源的空间稳定性；而在用单道脉冲分析器测量$^{137}$Cs能谱的长达两个小时的过程中，两峰值的能量比例没有明显偏离理论值，说明闪烁谱仪也具有一定的时间稳定性，但对时间稳定性的具体检验有待进一步的实验。
+
+ \begin{figure}[]
+ \includegraphics[width=1.0\textwidth]{data_gr9.eps}
+ \caption{对多道脉冲分析器读取的峰值数据进行线性拟合，拟合结果为$E=(-0.041+0.00177x)\textrm{MeV}$，$x$为微机道数，相关系数$R=0.9998$。}\label{fig9}
+ \end{figure}
+
+\section*{Methods}
+\subsection*{实验仪器}
+本实验中使用的闪烁谱仪原理图如图\ref{fig10}所示。闪烁谱仪利用某些物质在射线作用下会发光的特性，在闪烁体中将入射射线转化为光子，在本实验中入射的$\gamma$ 射线在闪烁体中通过光电效应、康普顿散射和电子对效应\footnote{电子对效应所需光子能量为1.022MeV，大于$^{137}$Cs 的$\gamma$ 射线能量，故在以$^{137}$Cs 为放射源时可以不考虑电子对效应}产生电子，这些电子使闪烁体中的分子或原子激发和电离而发光，闪烁体发出的光子再进入光电倍增管，通过光电效应产生电子，电子在光电倍增管中经过多级加速与倍增，最终在阳极产生电流脉冲信号，脉冲幅度与入射闪烁体的光子能量强度近似成正比。电流脉冲信号经射极跟随器的阻抗匹配后进入线性放大器\footnote{型号：BH1218}，经放大转化为可被观察和测量的电压脉冲。得到的电压脉冲信号可以用示波器观察，经单道脉冲幅度分析器\footnote{型号：BH1219}后接入自动定标器\footnote{型号：BH1220N}计数或用多道脉冲分析器接入微机进行分析。\par
+
+\begin{figure}[]
+\includegraphics[width=1.0\textwidth]{block_diagram.jpg}
+\caption{NaI(Ti)闪烁谱仪仪器原理框图}\label{fig10}
+\end{figure}
+\begin{figure}[]
+\includegraphics[width=1.0\textwidth]{cs_spectrum.jpg}
+\caption{NaI(Ti)闪烁谱仪仪器原理框图}\label{fig11}
+\end{figure}
+
+\subsection*{$\gamma$ 射线能谱}
+$^{137}$Cs 的$\gamma$ 射线能谱时比较典型和突出的，因此常用$^{137}$Cs 作为标准源用来检测$\gamma$谱仪和为其定标\cite{textbook}。
+$^{137}$Cs 的$\gamma$ 射线能谱如图\ref{fig11}所示\cite{handout}，特征有全能峰、反散射峰、X射线峰和康普顿平台。
+
+\subsection*{\emph{Mathematica}数据处理代码}
+\noindent 绘制$^{137}$Cs全能谱数据三次样条插值函数图：\\
+\noindent\(\pmb{\text{l2}=}\pmb{\text{Import}[}\pmb{\text{$\texttt{"}$cs-}}\pmb{\text{spectrum-data.txt$\texttt{"}$},\text{{``}list{''}}]}\)\\
+\noindent\(\pmb{\text{func2}=\text{Table}[\{8.1-0.1i,\text{l2}[[i]]\},\{i,1,75\}]}\)\\
+\noindent\(\pmb{\text{Show}[\text{ListPlot}[\text{func2}],\text{Plot}[\text{Interpolation}[\text{func2},\text{Method}\text{-$>$}\text{{``}Spline{''}}][x],}\\
+\pmb{\left.\{x,0.6,8\},\text{PlotRange}\to \text{Full}],\text{PlotRange}\to \text{All},\text{AxesLabel}\to \left\{\texttt{"}U_{\text{th}}\text{/V$\texttt{"}$},\text{{``}count{''}}\right\}\right]}\)\\\newline
+\noindent 对$^{137}$Cs与$^{60}$Co的光电峰与反散射峰数据进行线性拟合：\\
+\noindent\(\pmb{\text{l4}=\{\{1.1,0.184\},\{3.6,0.662\},\{6.4,1.17\},\{7.1,1.33\}\}}\)\\
+\noindent\(\pmb{\text{LinearModelFit}[\text{l4},x,x]}\)\\
+\noindent\(\pmb{\text{Show}[\text{ListPlot}[\text{l4},\text{PlotStyle}\to \text{Red}],\text{Plot}[\text{$\%$}[x],\{x,1.1,7.1\}],}\\
+\pmb{\left.\text{AxesLabel}\to \left\{\texttt{"}U_{\text{th}}\text{/V$\texttt{"}$},\text{{``}E/MeV{''}}\right\}\right]}\)
+
+
+\section*{}
+\begin{description}
+\item[Acknowledgement]非常感谢本实验的指导老师楼建琳以及其他两位与我进行同一实验并共同讨论的同学，没有他们本实验将难以完成。
+\item[思考题]见实验记录本
+\end{description}
+
+\noindent\rule{\textwidth}{0.8pt}
+\begin{thebibliography}{1}
+ \bibitem{textbook} 北京大学物理学院，吴思诚，荀坤.近代物理实验（第四版）[M]. 北京：高等教育出版社，2015. 50-60.
+ \bibitem{handout} NaI(Tl)闪烁谱仪实验讲义[EB/OL].\\
+     https://wenku.baidu.com/view/4a3daf8ff18583d0496459ad.html,2015-10-27/2017-10-04.
+\end{thebibliography}
+
+\end{document}
