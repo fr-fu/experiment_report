@@ -1,4 +1,6 @@
 \documentclass[a4paper,11pt]{article}
+\usepackage{geometry}
+\geometry{top=2.0cm}
 \usepackage{ctex}
 \usepackage{epstopdf}
 \usepackage{amsmath, graphics,graphicx}
@@ -18,17 +20,19 @@
 单极放大器的特性研究
 
 \section{实验目的}
-\begin{enumerate}
+\begin{itemize}
 \item 了解放大器的工作点和电路参数对放大性能的影响
 \item 学习测量放大器性能的方法
-\end{enumerate}
+\end{itemize}
 
 \section{实验仪器}
 信号发生器Tektronix\,\,AFG3051C，双通道示波器Tektronix\,\,TDS\,\,1012C-EDU，直流稳压电源，万用电表
 
 \section{实验原理}
-
-\includegraphics[width=4in,height=3in]{circuit.jpg}
+实验电路如下图所示\\
+\includegraphics[width=4in,height=3in]{circuit.jpg}\\
+放大倍数$A_u=-\beta\frac{R_c//R_L}{r_{be}}$，$r_{be}=r_b+(1+\beta)\frac{26\text{mV}}{I_E}$；\\
+$A_{us}=A_u\frac{R_i}{R_s+R_i}$，$R_i=(R_b+R_w)//r_{be}$
 
 \section{实验内容与数据记录}
  \subsection{观察放大器的输出波形}
@@ -66,21 +70,27 @@
      \fi
     \end{threeparttable}
    \end{table}
-   
+
    \begin{figure}[!ht]
     \includegraphics{g_gr1.eps}\centering
-    \caption{$A_u$与$I_c$关系图}\centering
+    \caption{$A_u$与$I_c$关系图 \quad\footnotesize 从图中可以看出$A_u$随着$I_c$增大而逐渐增大}\centering
    \end{figure}
-   
+
  \subsubsection{集电极电阻$R_c$变化的影响}
  保持$I_c=3\,\textrm{mA}$，$R_c=2\textrm{k$\Omega$}$时，
  $U_{ppo}=840\, \textrm{mV}$， $U_{ppi}=20.8\, \textrm{mV}$，\\[3pt]
  计算得$A_u=40.4$, $A_{us}=16.7$，与$R_c=1\textrm{k$\Omega$}$时相比$A_u$减小，$A_{us}$增大。
 
  \subsection{放大器的最佳工作点与晶体管输入动态范围的研究}
- $I_c=3\,\textrm{mA}$，$R_c=1\textrm{k$\Omega$}$，逐渐增大输入电压，放大器的输出波形先发生截止失真，输出波形最大而不失真时的输入电压$U_{imaxpp}=160\textrm{mV}$\par
- 输出波形正负向同时出现失真时，$I_{CQ}=5.1\text{mA}$，$U_{CEQ}=3.9\text{V}$，输出波形最大而不失真时的输入电压$U_{imaxpp}=200\textrm{mV}$
+ $I_c=3\,\textrm{mA}$，$R_c=1\textrm{k$\Omega$}$，逐渐增大输入电压，放大器的输出波形先发生截止失真，输出波形最大而不失真时的输入电压$U_{imaxpp}=160\textrm{mV}$。\par
+ 输出波形正负向同时出现失真时，$I_{CQ}=5.1\text{mA}$，$U_{CEQ}=3.9\text{V}$，输出波形最大而不失真时的输入电压$U_{imaxpp}=200\textrm{mV}$。
 
 \section{思考题}
+\begin{enumerate}
+\item $I_c=2\,\textrm{mA}$、$I_c=6\,\textrm{mA}$，$u_i=10\,\textrm{mV\footnotesize rms}$时输入输出无失真。
+\item 不能通过无限制提高$R_c$或$I_c$的方法达到提高放大器放大倍数的目的，因为当参数变化超出一定范围时，三极管会进入饱和区或者截至区，不再满足公式成立的前提条件（即放大器工作在线性放大区），此时继续变化参数放大倍数反而下降。
+\item 为增大放大倍数应适当增大$R_c$，但此举会减小动态变化范围；为了使输入信号动态范围大，应当尽量调节放大器的静态工作点以使得饱和失真与截止失真同时出现；通过增大$V_{cc}$的方式可以一举两得，但是要注意不能超过放大器的工作范围。
+
+\end{enumerate}
 
 \end{document}

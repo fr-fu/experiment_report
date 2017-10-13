@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2017.9.13)  5 OCT 2017 18:19
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2017.9.13)  11 OCT 2017 14:22
 entering extended mode
 **F:/SKF/pku/大三上/近代物理实验Ⅰ/NaI(Tl)闪烁谱仪测定γ射线�
 ��谱/NaI(Tl)闪烁谱仪测定γ射线能谱.tex
@@ -724,14 +724,13 @@ Package epstopdf Info: Source file: <data_gr1.eps>
 df data_gr1.eps>
 (epstopdf)             \includegraphics on input line 55.
 Package epstopdf Info: Output file is already uptodate.
-<data_gr1-eps-converted-to.pdf, id=75, 374.39874pt x 229.85875pt>
+<data_gr1-eps-converted-to.pdf, id=74, 374.39874pt x 229.85875pt>
 File: data_gr1-eps-converted-to.pdf Graphic file (type pdf)
 
 <use data_gr1-eps-converted-to.pdf>
 Package pdftex.def Info: data_gr1-eps-converted-to.pdf used on input line 55.
 (pdftex.def)             Requested size: 418.25368pt x 256.79817pt.
- [2 <F:/SKF/pku/大三上/近代物理实验Ⅰ/NaI(Tl)闪烁谱仪测定γ射�
-��能谱/data_gr1-eps-converted-to.pdf>]
+
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 62.
@@ -750,13 +749,14 @@ Package epstopdf Info: Source file: <data_gr2.eps>
 df data_gr2.eps>
 (epstopdf)             \includegraphics on input line 87.
 Package epstopdf Info: Output file is already uptodate.
-<data_gr2-eps-converted-to.pdf, id=109, 479.7925pt x 292.09125pt>
+<data_gr2-eps-converted-to.pdf, id=77, 479.7925pt x 292.09125pt>
 File: data_gr2-eps-converted-to.pdf Graphic file (type pdf)
 
 <use data_gr2-eps-converted-to.pdf>
 Package pdftex.def Info: data_gr2-eps-converted-to.pdf used on input line 87.
 (pdftex.def)             Requested size: 418.25368pt x 254.62987pt.
-
+ [2] [3 <F:/SKF/pku/大三上/近代物理实验Ⅰ/NaI(Tl)闪烁谱仪测定γ
+射线能谱/data_gr1-eps-converted-to.pdf>]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 94.
@@ -775,14 +775,13 @@ Package epstopdf Info: Source file: <data_gr3.eps>
 df data_gr3.eps>
 (epstopdf)             \includegraphics on input line 113.
 Package epstopdf Info: Output file is already uptodate.
-<data_gr3-eps-converted-to.pdf, id=112, 260.975pt x 162.6075pt>
+<data_gr3-eps-converted-to.pdf, id=114, 260.975pt x 162.6075pt>
 File: data_gr3-eps-converted-to.pdf Graphic file (type pdf)
 
 <use data_gr3-eps-converted-to.pdf>
 Package pdftex.def Info: data_gr3-eps-converted-to.pdf used on input line 113.
 (pdftex.def)             Requested size: 418.25368pt x 260.60904pt.
- [3] [4 <F:/SKF/pku/大三上/近代物理实验Ⅰ/NaI(Tl)闪烁谱仪测定γ
-射线能谱/data_gr2-eps-converted-to.pdf>]
+
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 120.
@@ -797,7 +796,7 @@ Package epstopdf Info: Source file: <data_gr4.eps>
 df data_gr4.eps>
 (epstopdf)             \includegraphics on input line 121.
 Package epstopdf Info: Output file is already uptodate.
-<data_gr4-eps-converted-to.pdf, id=138, 260.975pt x 157.58875pt>
+<data_gr4-eps-converted-to.pdf, id=119, 260.975pt x 157.58875pt>
 File: data_gr4-eps-converted-to.pdf Graphic file (type pdf)
 
 <use data_gr4-eps-converted-to.pdf>
@@ -818,7 +817,7 @@ Package epstopdf Info: Source file: <data_gr5.eps>
 df data_gr5.eps>
 (epstopdf)             \includegraphics on input line 125.
 Package epstopdf Info: Output file is already uptodate.
-<data_gr5-eps-converted-to.pdf, id=139, 260.975pt x 162.6075pt>
+<data_gr5-eps-converted-to.pdf, id=120, 260.975pt x 162.6075pt>
 File: data_gr5-eps-converted-to.pdf Graphic file (type pdf)
 
 <use data_gr5-eps-converted-to.pdf>
@@ -839,7 +838,7 @@ Package epstopdf Info: Source file: <data_gr6.eps>
 df data_gr6.eps>
 (epstopdf)             \includegraphics on input line 129.
 Package epstopdf Info: Output file is already uptodate.
-<data_gr6-eps-converted-to.pdf, id=140, 260.975pt x 160.6pt>
+<data_gr6-eps-converted-to.pdf, id=121, 260.975pt x 160.6pt>
 File: data_gr6-eps-converted-to.pdf Graphic file (type pdf)
 
 <use data_gr6-eps-converted-to.pdf>
@@ -860,13 +859,20 @@ Package epstopdf Info: Source file: <data_gr7.eps>
 df data_gr7.eps>
 (epstopdf)             \includegraphics on input line 133.
 Package epstopdf Info: Output file is already uptodate.
-<data_gr7-eps-converted-to.pdf, id=141, 260.975pt x 160.6pt>
+<data_gr7-eps-converted-to.pdf, id=122, 260.975pt x 160.6pt>
 File: data_gr7-eps-converted-to.pdf Graphic file (type pdf)
 
 <use data_gr7-eps-converted-to.pdf>
 Package pdftex.def Info: data_gr7-eps-converted-to.pdf used on input line 133.
 (pdftex.def)             Requested size: 418.25368pt x 257.39162pt.
-
+ [4 <F:/SKF/pku/大三上/近代物理实验Ⅰ/NaI(Tl)闪烁谱仪测定γ射�
+��能谱/data_gr2-eps-converted-to.pdf>]
+[5 <F:/SKF/pku/大三上/近代物理实验Ⅰ/NaI(Tl)闪烁谱仪测定γ射�
+�能谱/data_gr3-eps-converted-to.pdf> <F:/SKF/pku/大三上/近代物理实验
+Ⅰ/NaI(Tl)闪烁谱仪测定γ射线能谱/data_gr4-eps-converted-to.pdf>]
+[6 <F:/SKF/pku/大三上/近代物理实验Ⅰ/NaI(Tl)闪烁谱仪测定γ射�
+�能谱/data_gr5-eps-converted-to.pdf> <F:/SKF/pku/大三上/近代物理实验
+Ⅰ/NaI(Tl)闪烁谱仪测定γ射线能谱/data_gr6-eps-converted-to.pdf>]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 141.
@@ -881,23 +887,17 @@ Package epstopdf Info: Source file: <data_gr8.eps>
 df data_gr8.eps>
 (epstopdf)             \includegraphics on input line 142.
 Package epstopdf Info: Output file is already uptodate.
-<data_gr8-eps-converted-to.pdf, id=143, 260.975pt x 153.57375pt>
+<data_gr8-eps-converted-to.pdf, id=154, 260.975pt x 153.57375pt>
 File: data_gr8-eps-converted-to.pdf Graphic file (type pdf)
 
 <use data_gr8-eps-converted-to.pdf>
 Package pdftex.def Info: data_gr8-eps-converted-to.pdf used on input line 142.
 (pdftex.def)             Requested size: 418.25368pt x 246.13074pt.
- [5 <F:/SKF/pku/大三上/近代物理实验Ⅰ/NaI(Tl)闪烁谱仪测定γ射�
-��能谱/data_gr3-eps-converted-to.pdf>]
-[6 <F:/SKF/pku/大三上/近代物理实验Ⅰ/NaI(Tl)闪烁谱仪测定γ射�
-�能谱/data_gr4-eps-converted-to.pdf> <F:/SKF/pku/大三上/近代物理实验
-Ⅰ/NaI(Tl)闪烁谱仪测定γ射线能谱/data_gr5-eps-converted-to.pdf>]
-[7 <F:/SKF/pku/大三上/近代物理实验Ⅰ/NaI(Tl)闪烁谱仪测定γ射�
-�能谱/data_gr6-eps-converted-to.pdf> <F:/SKF/pku/大三上/近代物理实验
-Ⅰ/NaI(Tl)闪烁谱仪测定γ射线能谱/data_gr7-eps-converted-to.pdf>]
+ [7 <F:/SKF/pku/大三上/近代物理实验Ⅰ/NaI(Tl)闪烁谱仪测定γ射�
+��能谱/data_gr7-eps-converted-to.pdf>]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 152.
+               Default added (so using `tbp') on input line 153.
 
 Package epstopdf Info: Source file: <data_gr9.eps>
 (epstopdf)                    date: 2017-10-05 16:57:33
@@ -907,71 +907,70 @@ Package epstopdf Info: Source file: <data_gr9.eps>
 (epstopdf)                    size: 14273 bytes
 (epstopdf)             Command: <epstopdf --outfile=data_gr9-eps-converted-to.p
 df data_gr9.eps>
-(epstopdf)             \includegraphics on input line 153.
+(epstopdf)             \includegraphics on input line 154.
 Package epstopdf Info: Output file is already uptodate.
-<data_gr9-eps-converted-to.pdf, id=184, 260.975pt x 163.61125pt>
+<data_gr9-eps-converted-to.pdf, id=175, 260.975pt x 163.61125pt>
 File: data_gr9-eps-converted-to.pdf Graphic file (type pdf)
 
 <use data_gr9-eps-converted-to.pdf>
-Package pdftex.def Info: data_gr9-eps-converted-to.pdf used on input line 153.
+Package pdftex.def Info: data_gr9-eps-converted-to.pdf used on input line 154.
 (pdftex.def)             Requested size: 418.25368pt x 262.21771pt.
  [8 <F:/SKF/pku/大三上/近代物理实验Ⅰ/NaI(Tl)闪烁谱仪测定γ射�
 ��能谱/data_gr8-eps-converted-to.pdf>]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 161.
+               Default added (so using `tbp') on input line 162.
 
-<block_diagram.jpg, id=200, 402.75468pt x 247.67531pt>
+<block_diagram.jpg, id=192, 402.75468pt x 247.67531pt>
 File: block_diagram.jpg Graphic file (type jpg)
  <use block_diagram.jpg>
-Package pdftex.def Info: block_diagram.jpg used on input line 162.
+Package pdftex.def Info: block_diagram.jpg used on input line 163.
 (pdftex.def)             Requested size: 418.25368pt x 257.20587pt.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 165.
+               Default added (so using `tbp') on input line 166.
 
-<cs_spectrum.jpg, id=201, 537.00626pt x 249.93375pt>
+<cs_spectrum.jpg, id=193, 537.00626pt x 249.93375pt>
 File: cs_spectrum.jpg Graphic file (type jpg)
  <use cs_spectrum.jpg>
-Package pdftex.def Info: cs_spectrum.jpg used on input line 166.
+Package pdftex.def Info: cs_spectrum.jpg used on input line 167.
 (pdftex.def)             Requested size: 418.25368pt x 194.66531pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 176--186
+
+ []
 
 [9 <F:/SKF/pku/大三上/近代物理实验Ⅰ/NaI(Tl)闪烁谱仪测定γ射�
 �能谱/data_gr9-eps-converted-to.pdf>] [10 <F:/SKF/pku/大三上/近代物理�
 ��验Ⅰ/NaI(Tl)闪烁谱仪测定γ射线能谱/block_diagram.jpg> <F:/SKF/pku
 /大三上/近代物理实验Ⅰ/NaI(Tl)闪烁谱仪测定γ射线能谱/cs_spe
 ctrum.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 175--185
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 196--198
+Underfull \hbox (badness 10000) in paragraph at lines 197--199
 \OT1/cmr/m/n/10.95 https://wenku.baidu.com/view/4a3daf8ff18583d0496459ad.html,2
 015-10-27/2017-
  []
 
 [11]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 200.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 200.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 201.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 201.
 
 (F:\SKF\pku\大三上\近代物理实验Ⅰ\NaI(Tl)闪烁谱仪测定γ射线�
 �谱\NaI(Tl)闪烁谱仪测定γ射线能谱.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 200.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 200.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 201.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 201.
 Package rerunfilecheck Info: File `NaI(Tl)闪烁谱仪测定γ射线能谱.out'
  has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 13708 strings out of 495354
- 215908 string characters out of 3183859
- 322598 words of memory out of 3000000
- 16508 multiletter control sequences out of 15000+200000
- 55772 words of font info for 192 fonts, out of 3000000 for 9000
+ 13681 strings out of 495354
+ 215513 string characters out of 3183859
+ 320598 words of memory out of 3000000
+ 16493 multiletter control sequences out of 15000+200000
+ 52412 words of font info for 181 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 42i,16n,27p,995b,604s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 42i,16n,27p,994b,600s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simhei.ttf><C:/WINDOWS/Fonts/s
 imhei.ttf><C:/WINDOWS/Fonts/simhei.ttf><C:/WINDOWS/Fonts/simhei.ttf><C:/WINDOWS
 /Fonts/simhei.ttf><C:/WINDOWS/Fonts/simhei.ttf><C:/WINDOWS/Fonts/simhei.ttf><C:
@@ -979,13 +978,13 @@ imhei.ttf><C:/WINDOWS/Fonts/simhei.ttf><C:/WINDOWS/Fonts/simhei.ttf><C:/WINDOWS
 .ttf><C:/WINDOWS/Fonts/simhei.ttf><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Font
 s/simhei.ttf><C:/WINDOWS/Fonts/simhei.ttf><C:/WINDOWS/Fonts/simhei.ttf><C:/WIND
 OWS/Fonts/simhei.ttf><C:/WINDOWS/Fonts/simhei.ttf><C:/WINDOWS/Fonts/simhei.ttf>
-<C:/WINDOWS/Fonts/simkai.ttf><C:/WINDOWS/Fonts/simkai.ttf><C:/WINDOWS/Fonts/sim
-kai.ttf><C:/WINDOWS/Fonts/simkai.ttf><C:/WINDOWS/Fonts/simkai.ttf><C:/WINDOWS/F
-onts/simkai.ttf><C:/WINDOWS/Fonts/simkai.ttf><C:/WINDOWS/Fonts/simkai.ttf><C:/W
-INDOWS/Fonts/simkai.ttf><C:/WINDOWS/Fonts/simkai.ttf><C:/WINDOWS/Fonts/simkai.t
-tf><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simhei.ttf><C:/WINDOWS/Fonts/
-simhei.ttf><C:/WINDOWS/Fonts/simhei.ttf><C:/WINDOWS/Fonts/simhei.ttf><C:/WINDOW
-S/Fonts/simhei.ttf><C:/WINDOWS/Fonts/simhei.ttf><C:/WINDOWS/Fonts/simhei.ttf><C
+<C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simhei.ttf><C:/WINDOWS/Fonts/sim
+hei.ttf><C:/WINDOWS/Fonts/simhei.ttf><C:/WINDOWS/Fonts/simhei.ttf><C:/WINDOWS/F
+onts/simhei.ttf><C:/WINDOWS/Fonts/simhei.ttf><C:/WINDOWS/Fonts/simhei.ttf><C:/W
+INDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.t
+tc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/
+simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOW
+S/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C
 :/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsu
 n.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fon
 ts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WIN
@@ -993,30 +992,26 @@ DOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc
 ><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/si
 msun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/
 Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/
-WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.
-ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts
-/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDO
-WS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><
-C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><D:/CTEX/MiKTeX/fonts/
-type1/public/amsfonts/cm/cmbx10.pfb><D:/CTEX/MiKTeX/fonts/type1/public/amsfonts
-/cm/cmbx12.pfb><D:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><D:/
-CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><D:/CTEX/MiKTeX/fonts/typ
-e1/public/amsfonts/cm/cmmi12.pfb><D:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm
-/cmmi6.pfb><D:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><D:/CTEX/Mi
-KTeX/fonts/type1/public/amsfonts/cm/cmmi9.pfb><D:/CTEX/MiKTeX/fonts/type1/publi
-c/amsfonts/cm/cmr10.pfb><D:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pf
-b><D:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><D:/CTEX/MiKTeX/font
-s/type1/public/amsfonts/cm/cmr6.pfb><D:/CTEX/MiKTeX/fonts/type1/public/amsfonts
-/cm/cmr7.pfb><D:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><D:/CTEX/M
-iKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><D:/CTEX/MiKTeX/fonts/type1/publi
-c/amsfonts/cm/cmsy10.pfb><D:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.p
-fb><D:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><D:/CTEX/MiKTeX/fon
-ts/type1/public/amsfonts/cm/cmsy9.pfb><D:/CTEX/MiKTeX/fonts/type1/public/amsfon
-ts/cm/cmtt10.pfb>
-Output written on NaI(Tl)闪烁谱仪测定γ射线能谱.pdf (11 pages, 822694
+WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><D:/CTEX/MiKTeX/fonts/typ
+e1/public/amsfonts/cm/cmbx10.pfb><D:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm
+/cmbx12.pfb><D:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><D:/CTE
+X/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><D:/CTEX/MiKTeX/fonts/type1/
+public/amsfonts/cm/cmmi12.pfb><D:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cm
+mi6.pfb><D:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><D:/CTEX/MiKTe
+X/fonts/type1/public/amsfonts/cm/cmmi9.pfb><D:/CTEX/MiKTeX/fonts/type1/public/a
+msfonts/cm/cmr10.pfb><D:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><
+D:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><D:/CTEX/MiKTeX/fonts/t
+ype1/public/amsfonts/cm/cmr6.pfb><D:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm
+/cmr7.pfb><D:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><D:/CTEX/MiKT
+eX/fonts/type1/public/amsfonts/cm/cmr9.pfb><D:/CTEX/MiKTeX/fonts/type1/public/a
+msfonts/cm/cmsy10.pfb><D:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb>
+<D:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><D:/CTEX/MiKTeX/fonts/
+type1/public/amsfonts/cm/cmsy9.pfb><D:/CTEX/MiKTeX/fonts/type1/public/amsfonts/
+cm/cmtt10.pfb>
+Output written on NaI(Tl)闪烁谱仪测定γ射线能谱.pdf (11 pages, 800444
  bytes).
 PDF statistics:
- 523 PDF objects out of 1000 (max. 8388607)
+ 479 PDF objects out of 1000 (max. 8388607)
  53 named destinations out of 1000 (max. 500000)
  56 words of extra memory for PDF output out of 10000 (max. 10000000)
 
